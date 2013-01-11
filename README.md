@@ -1,2 +1,3 @@
 vimconf
+init
 =======
