@@ -52,7 +52,7 @@
     set incsearch           " incremental search
     set ignorecase          " Ignore case when search
     set smartcase
-    set nowrapscan          " No wrap scan when search
+    " set nowrapscan          " No wrap scan when search
 
     " toggle case ignore
     nmap <Leader>C :set ignorecase! ignorecase?<CR>
@@ -92,7 +92,7 @@ nmap \p i(<Esc>ea)<Esc>
 nmap \c i{<Esc>ea}<Esc>
 
 " automatically removing all trailing whitespace
-autocmd BufWritePre * :%s/\s\+$//e
+" autocmd BufWritePre * :%s/\s\+$//e
 
 
 "============= Plugin settings =============
@@ -107,7 +107,6 @@ nnoremap <silent> <F8> :TlistToggle<CR>
 
 " Powerline {
     set guifont=PowerlineSymbols\ for\ Powerline
-    set nocompatible
     set t_Co=256
     " let g:Powerline_symbols = 'fancy'
 " }
